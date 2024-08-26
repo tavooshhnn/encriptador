@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --color-principal: #023e55;
-    --color-secundario : #2ba5b2;
-    --color-terciario : #f7af02;
-    --color-cuatario: #3b4e73;
+    --color-principal: #54a5c6;
+    --color-secundario : #1e9820;
+    --color-terciario : #675f4e;
+    --color-cuatario: #325497;
     --fuente-montzerrat : "Montserrat", sans-serif; 
     --fuente-krona : "Krona One", sans-serif;
 }
+
+* {
+    padding: 0;
+    margin:0;
+}
+
 
 body{
     box-sizing: border-box;
