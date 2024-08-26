@@ -8,28 +8,27 @@
 </head>
 <body>
     
-
     <header><img src="assets/Logo-1.png" alt="Logo_Alura"></header>
     <main>
         <section class="Cuadros__texto">
-            <div class="SeccionInput">
-                <textarea class="inputTex" name="Texto" id="textoingreso" placeholder="Ingrese su texto aquí..."></textarea>
+            <div class="Seccion__entrada">
+                <textarea class="tipiado" name="Texto" id="textoingreso" placeholder="Ingrese su texto aquí..."></textarea>
                 <div>
-                    <button class="Boton__copiar" type="button" onclick="pegarContenido()">Pegar</button>
-                    <button class="Boton__copiar" type="button" onclick="borrar('textoingreso')">Borrar</button>
+                    <button class="BotonCopiar" type="button" onclick="pegarContenido()">Pegar</button>
+                    <button class="BotonCopiar" type="button" onclick="borrar('textoingreso')">Borrar</button>
                 </div>
 
-                <section class="Bot">
+                <section class="Boto">
                     <button class="botones" type="button" onclick="accionEncriptar()">Encriptar *-*</button>
                     <button class="botones" type="button" onclick="accionDesencriptar()">Desencriptar O_o</button>
                 </section>
             </div>
             <div class="Seccion__resultado">
-                <textarea class="Resultado__texto" readonly name="Res" id="resultado" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <textarea class="Resultado__texto" readonly name="Res" id="resultado" placeholder=></textarea>
 
                 <div>
                     <button class="Boton__copiar" type="button" onclick="copiarContenido()">Copiar</button>
-                    <button class="Boton__copiar" type="button" onclick="borrar('resultado')">Borrar</button>
+                    
                 </div>
 
 

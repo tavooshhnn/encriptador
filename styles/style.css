@@ -20,13 +20,13 @@ body{
     align-items: center;
     justify-content: center;
     gap: 80px;
-    padding: 10px;
+    padding: 24px;
     box-sizing: border-box;
     
 
 }
 
-.SeccionInput{
+.Seccion__entrada{
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -34,7 +34,7 @@ body{
     gap: 10px;
 }
 
-.inputTex{
+.tipiado{
     width: auto;
     height: 31.25rem;
     justify-content: start;
@@ -54,7 +54,7 @@ body{
     
 }
 
-.Boton__copiar{
+.BotonCopiar{
     width: 6.25rem;
     height: 3.125rem;
     border-radius: 20px;
@@ -63,8 +63,8 @@ body{
     color:var(--color-principal);
 }
 
-.Boton__copiar:hover{
-    background-color: #1b5e8b;
+.BotonCopiar:hover{
+    background-color: #3b4e73;
 }
 
 .Resultado__texto{
@@ -75,17 +75,18 @@ body{
     font-family: var(--fuente-krona);
     font-size: 1.5rem;
     border-radius: 10px;
-    background-image:url();
+    background-image:url(assets/alura.png);
+    background-image: center;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 60%; 
+    background-size: 75%; 
 }
 
 .Resultado__texto:not(:placeholder-shown) {
     background-image: none;
 }
 
-.Bot{
+.Boto{
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -103,6 +104,18 @@ body{
 
 .botones:hover{
     background-color:#82c6f3;
+}
+
+.Boton__copiar{
+    width: 6.25rem;
+    height: 3.125rem;
+    border-radius: 20px;
+    background-color: var(--color-terciario);
+    font-family: var(--fuente-krona);
+    color:var(--color-principal);   
+}
+.Boton__copiar:hover{
+    background-color: #3b4e73;
 }
 
 .foot{
