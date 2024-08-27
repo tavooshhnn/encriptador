@@ -1,7 +1,6 @@
 const textArea = document.querySelector('#textoingreso');  // Selección de los elementos usando querySelector
-const resultArea = document.querySelector('#resultado');  // entradas y salidas linea 1 y2
-
-
+const resultArea = document.querySelector('#resultado'); // entradas y salidas linea 1 y2
+  
 const encryptionMap = {// Encriptacion y desencriptacion
   "a": "ai",
   "e": "enter",

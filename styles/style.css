@@ -81,7 +81,7 @@ body{
     font-family: var(--fuente-krona);
     font-size: 1.5rem;
     border-radius: 10px;
-    background-image:url(assets/alura.png);
+    background-image: url(../assets/alura.png);
     background-image: center;
     background-repeat: no-repeat;
     background-position: bottom;
